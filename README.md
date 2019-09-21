@@ -1,7 +1,7 @@
 ectl -- Erlang Controller
 =================
 
-`ectl` is an escript command-line interface for some useful debugging and profiling tools for erlang VM, [redbug](https://github.com/basho/eper) and [recon](https://github.com/ferd/recon) are currently supported.
+`ectl` is an escript command-line interface for some useful debugging and profiling tools for erlang VM, [redbug](https://github.com/massemanet/redbug) and [recon](https://github.com/ferd/recon) are currently supported.
 
 ```bash
 $ ./ectl
@@ -40,7 +40,7 @@ then you will have an executable `ectl` script in the folder.
 
 ### redbug
 
-[redbug](https://github.com/basho/eper) is similar to the OTP dbg application, but safer, better etc. `ectl` wraps this great tool in a nicer cli interface.
+[redbug](https://github.com/massemanet/redbug) is similar to the OTP dbg application, but safer, better etc. `ectl` wraps this great tool in a nicer cli interface.
 
 ```bash
 $ ./ectl redbug -h
